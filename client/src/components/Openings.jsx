@@ -8,11 +8,7 @@ export default function Openings() {
 
   return (
     <>
-     {
-      data.map((e)=>
-        {e}
-      )
-     }
+     Hi
     </>
   )
 }
