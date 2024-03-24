@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 export default function Openings() {
+  const [data, setData] = useState([2,3,4,5]); 
+  useEffect(()=>{
+
+  }, []);
+
   return (
-    <div>
-      Hi
-    </div>
+    <>
+     {
+      data.map((e)=>
+        {e}
+      )
+     }
+    </>
   )
 }
